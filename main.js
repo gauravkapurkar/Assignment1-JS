@@ -17,7 +17,7 @@ const data = {
             },
             {   
                 room:2,
-                area: 'rcp new'
+                area: 'rcp newer'
             }
         ]
 };
