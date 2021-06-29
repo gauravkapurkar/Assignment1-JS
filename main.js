@@ -41,13 +41,9 @@ function getVal(object, keyArg, path) {
         else{
             //checking that prop string matches with key
             if(prop == keyArg){
-                // console.log(`value = ${object[prop]}`);
-                // console.log(typeof object[prop]);
-                // console.log(`path = ${path}`);
                 var newPath = `${path}/${prop}` ;
                 var value = object[prop];
-//                 var res = `${value}
-// ${newPath}`;
+
                 return [value, newPath];
             
             }
